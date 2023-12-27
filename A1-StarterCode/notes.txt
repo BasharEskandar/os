@@ -1,0 +1,29 @@
+../A1-testcases_public/
+
+../A2_testcases_public/
+
+run ../A1-testcases_public/
+
+exec ../A1-testcases_public/
+
+
+
+common errors : pcb isntead of PCB
+
+1) 2 memories :    
+
+* struct var_struct{     -----> for variables
+	char *var;
+	char *value;
+};
+
+* struct frame_struct{   ----> frame
+	int PID;
+	int frame_index;
+
+	char *line1;
+    char *line2;
+    char *line3;
+};
+
+todo :  reset scheduler change to delete each process's pages in memory
